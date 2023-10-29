@@ -2,28 +2,51 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
-
 h1{
     font-size: 50px;
 }
-
 .name-highlight{
     color: orange;
 }
-
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-
 .half-width img{
     width: 100%;
 }
-
 .top-section{
     height: 500px;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.link-button{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 7.5px;
+    font-weight: 700;
+}
+.middle-section{
+    height: 500px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 100px;
+}
+
+h2{
+    font-size: 40px;
+}
+.download-button{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    text-decoration: none;
+    color: white;    
+    padding: 10px 25px;
+    border-radius: 7.5px;
+    font-weight: 700;
 }
