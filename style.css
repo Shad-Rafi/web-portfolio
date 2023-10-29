@@ -76,3 +76,6 @@ footer{
     text-align: center;
     font-size: 12.5px;
 }
+.half-width p{
+    color: dimgray;
+}
